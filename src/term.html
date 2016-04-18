@@ -39,48 +39,23 @@
             <div class="form student">
                 <form>
                     <!-- Student details -->
-                    <label for="firstName" class="students-form-label">
-                        <input id="firstName" type="text" class="inline-label" placeholder="First name" />
+                    <label for="name" class="students-form-label">
+                        <input id="name" type="text" class="block-label" placeholder="First name" />
                      </label>
-                    <label for="middleName" class="students-form-label" >
-                        <input id="middleName" type="text" class="inline-label" placeholder="Middle Name" />
+                    <label for="opening" class="students-form-date" >
+                        Opening <input id="opening" type="date" placeholder="Date of Birth" />
                     </label>
-                    <label for="lastName" class="students-form-label" >
-                        <input id="lastName" type="text" class="inline-label" placeholder="Last Name" />
+                    <label for="closing" class="students-form-date" >
+                        Closing <input id="closing" type="date" placeholder="Date of Birth" />
                     </label>
-                    <div>
-                        <input id="sex" type="radio" value="Boy"> Male
-                        <input id="sex" type="radio" value="Girl"> Female
-                    </div>
-                    <label for="dateOfBirth" class="students-form-date" >
-                        <input id="dateOfBirth" type="date" placeholder="Date of Birth" />
+                    <label for="comments" >
+                        <textarea id="comments" class="block-textarea" placeholder="Allergies"></textarea>
                     </label>
-                    <label for="picture" class="students-form-label" >
-                        <input id="picture" type="text" class="inline-label" placeholder="Photo" />
-                    </label>
-                    <label for="allergies" >
-                        <textarea id="allergies" class="block-textarea" placeholder="Allergies"></textarea>
-                    </label>
-                    <label for="specialNeeds" >
-                        <textarea id="specialNeeds" class="block-textarea" placeholder="Allergies"></textarea>
-                    </label>
-                    <label for="comments"  >
-                        <textarea id="comments" class="block-textarea" placeholder="Comments"></textarea>
-                    </label>
+                    
                     <button id="studentssave" class="button students">Save</button>
                     <button id="studentscancel" class="button students">Cancel</button>
                 </form>
             </div>
-            
-            <!-- Create the guardians side bar -->   
-            <div>
-                <aside class="aside student">
-                    List student's guardinans
-                    <button id="guardianremove" class="button students">Remove</button>
-                    <button id="guardianadd" class="button students">Add</button>
-                </aside>
-            </div>
-            
             
         </main>
         

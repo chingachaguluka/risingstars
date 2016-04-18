@@ -87,149 +87,31 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-    background: #227F9A;
-    color: white;
-    position: relative;
-    min-height: 100%; 
+.form.feespayment {
+    height: 250px;
+    width: 700px;
+    color: black;
+    margin: 5px;
 }
-
-header {
-    height: 50px;
-    background: #1f8ca7;
-}
-
-h2 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-nav {
-    display: inline;
-}
-
-footer{
-    height: 20px;
-    font-size: 0.75em;
-    padding: 5px 0 15px 15px;
-    background: #1f8ca7;
-    position: absolute;
-    bottom: 5px;
-}
-
-main {
-    height: 100%;
-}
-
-html {
-    font-family: sans-serif;
-    height: 100%;   
-}
-
-
-.form {
+.form.feespaymentlineitems {
     padding-top: 5px;
     background: #FFFFFF;
-    border-radius: 5px;  
-}
-.form.signin {
-    height: 190px;
-    width: 481px;
-}
-.form.student {
-    height: 390px;
-    width: 450px;
-    display: inline;
-    float: left;
+    border-radius: 5px;
+    height: 430px;
+    width: 700px;
     color: black;
     margin: 5px;
-}
-.form.guardian {
-    height: 390px;
-    width: 450px;
-    float: left;
-    color: black;
-    margin: 5px;
-}
-.logo {
-    display: inline;
-    margin-right: 20px;
 }
 
-.button {
-    color: white;
-    background: #008CAF;
-    border-radius: 5px;
-    text-align: center;    
-}
-.button.login {
-    height: 54px;
-    width: 430px;
-    font-size: 30px;
-    display: block;
-    margin: 0 auto; 
-}
-.button.students{
+.mediumButton{
     height: 32px;
     width: 100px;
     font-size: 18px;
     float: right;
     margin-right: 10px
 }
-.login-header {
-    font-size: 0.75em;
-    text-align: center;
-}
-.alert {
-    background-color: green;
-    padding: 0;
-    margin: 0;
-}
-.inline-label {
-    display: inline;
-    height: 22px;
-    width: 200px;
-    border: 2px solid #C0C8CB;
-    border-radius: 5px;
-    margin: 10px auto;
-    font-size: 16px;
-    padding-left: 10px;
-}
 
-.block-label {
-    display: block;
-    height: 22px;
-    width: 412px;
-    border: 2px solid #C0C8CB;
-    border-radius: 5px;
-    margin: 10px auto;
-    font-size: 16px;
-    padding-left: 10px;
-}
-.login-label {
-    display: block;
-    height: 38px;
-    width: 412px;
-    border: 2px solid #C0C8CB;
-    border-radius: 5px;
-    margin: 10px auto;
-    font-size: 20px;
-    padding-left: 10px;
-}
-.block-textarea {
-    margin-left: 5px;
-    height: 60px;
-    width: 432px;
-    border: 2px solid #C0C8CB;
-    border-radius: 5px;
-    font-size: 20px;
-}
-.students-form-label {
-    margin: 5px;   
-}
-.students-form-date {
-    margin: 5px;
-}
+
 
 /* ==========================================================================
    Helper classes

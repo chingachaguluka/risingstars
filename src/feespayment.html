@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/feespayment.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -36,49 +37,62 @@
             </div>
             
             <!-- Student details -->
-            <div class="form student">
+            <div class="form feespayment">
                 <form>
                     <!-- Student details -->
-                    <label for="firstName" class="students-form-label">
-                        <input id="firstName" type="text" class="inline-label" placeholder="First name" />
+                    <label for="student" class="students-form-label">
+                        <input id="student" type="text" class="inline-label" placeholder="Student" />
                      </label>
-                    <label for="middleName" class="students-form-label" >
-                        <input id="middleName" type="text" class="inline-label" placeholder="Middle Name" />
+                    <label for="term" class="students-form-label" >
+                        <input id="term" type="text" class="inline-label" placeholder="Term" />
                     </label>
-                    <label for="lastName" class="students-form-label" >
-                        <input id="lastName" type="text" class="inline-label" placeholder="Last Name" />
+                    <label for="amount" class="students-form-label" >
+                        <input id="amount" type="text" class="inline-label" placeholder="Amount" />
                     </label>
-                    <div>
-                        <input id="sex" type="radio" value="Boy"> Male
-                        <input id="sex" type="radio" value="Girl"> Female
-                    </div>
-                    <label for="dateOfBirth" class="students-form-date" >
-                        <input id="dateOfBirth" type="date" placeholder="Date of Birth" />
+                    <label for="balance" class="students-form-label" >
+                        <input id="balance" type="text" class="inline-label" placeholder="Balance" />
                     </label>
-                    <label for="picture" class="students-form-label" >
-                        <input id="picture" type="text" class="inline-label" placeholder="Photo" />
-                    </label>
-                    <label for="allergies" >
-                        <textarea id="allergies" class="block-textarea" placeholder="Allergies"></textarea>
-                    </label>
-                    <label for="specialNeeds" >
-                        <textarea id="specialNeeds" class="block-textarea" placeholder="Allergies"></textarea>
+                    <label for="settled" class="students-form-label" >
+                        <input id="settled" type="text" class="inline-label" placeholder="Settled" />
                     </label>
                     <label for="comments"  >
                         <textarea id="comments" class="block-textarea" placeholder="Comments"></textarea>
                     </label>
                     <button id="studentssave" class="button students">Save</button>
                     <button id="studentscancel" class="button students">Cancel</button>
+                    
                 </form>
             </div>
             
             <!-- Create the guardians side bar -->   
-            <div>
-                <aside class="aside student">
-                    List student's guardinans
-                    <button id="guardianremove" class="button students">Remove</button>
-                    <button id="guardianadd" class="button students">Add</button>
-                </aside>
+            <div class="form feespaymentlineitems" >
+                <table class="">
+                    <th> # </th><th> Date </th><th> Payment Mode </th><th> Amount </th><th> Receipt # </th><th> Cheque # </th><th> Bank </th><th> Paid By </th>
+                    <tr>
+                        <td>1</td>
+                        <td>18-Apr-16</td>
+                        <td>Cash</td>
+                        <td>100000</td>
+                        <td>121201</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>Chinga Chaguluka</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>20-Apr-16</td>
+                        <td>Cheque</td>
+                        <td>8000</td>
+                        <td>121231</td>
+                        <td>123456789</td>
+                        <td>OIBM</td>
+                        <td>Chigwera Chaguluka</td>
+                        
+                    </tr>
+                </table>
+                <button id="saveLineItem" class="button students">Save</button>
+                <button id="cancelLineItem" class="button students">Cancel</button>
             </div>
             
             

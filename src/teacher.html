@@ -35,54 +35,66 @@
                 <p>Alert details to come</p>
             </div>
             
-            <!-- Student details -->
-            <div class="form student">
+    
+            <!-- Gurdians details -->
+            <div class="form guardian">
                 <form>
-                    <!-- Student details -->
+                    <label for="title" class="students-form-label">
+                        <input id="title" type="text" class="inline-label" placeholder="Title" />
+                     </label>
                     <label for="firstName" class="students-form-label">
                         <input id="firstName" type="text" class="inline-label" placeholder="First name" />
                      </label>
                     <label for="middleName" class="students-form-label" >
                         <input id="middleName" type="text" class="inline-label" placeholder="Middle Name" />
                     </label>
-                    <label for="lastName" class="students-form-label" >
+                    <label for="lastName" class="students-form-label">
                         <input id="lastName" type="text" class="inline-label" placeholder="Last Name" />
                     </label>
-                    <div>
-                        <input id="sex" type="radio" value="Boy"> Male
-                        <input id="sex" type="radio" value="Girl"> Female
-                    </div>
-                    <label for="dateOfBirth" class="students-form-date" >
-                        <input id="dateOfBirth" type="date" placeholder="Date of Birth" />
+                    <label for="picture" class="students-form-label">
+                        <input id="picture" type="text" class="inline-label" placeholder="picture" />
                     </label>
-                    <label for="picture" class="students-form-label" >
-                        <input id="picture" type="text" class="inline-label" placeholder="Photo" />
+                    <label for="telephone1" class="students-form-label">
+                        <input id="telephone1" type="tel" class="inline-label" placeholder="Telephone 1" />
                     </label>
-                    <label for="allergies" >
-                        <textarea id="allergies" class="block-textarea" placeholder="Allergies"></textarea>
+                    <label for="telephone2"  class="students-form-label">
+                        <input id="telephone2" type="tel" class="inline-label" placeholder="Telephone 2" />
                     </label>
-                    <label for="specialNeeds" >
-                        <textarea id="specialNeeds" class="block-textarea" placeholder="Allergies"></textarea>
+                    <label for="address1" class="students-form-label" >
+                        <input id="address2" type="text" class="inline-label" placeholder="Address 1" />
                     </label>
-                    <label for="comments"  >
-                        <textarea id="comments" class="block-textarea" placeholder="Comments"></textarea>
+                    <label for="address2" class="students-form-label">
+                        <input id="address2" type="text" class="inline-label" placeholder="Address 2" />
                     </label>
-                    <button id="studentssave" class="button students">Save</button>
-                    <button id="studentscancel" class="button students">Cancel</button>
+                    <label for="country" class="students-form-label">
+                        <input id="country" type="textbox" class="inline-label" placeholder="Country" />
+                    </label>
+                    <label for="skype" class="students-form-label">
+                        <input id="skype" type="text" class="inline-label" placeholder="Skype" />
+                    </label>
+                    <label for="email" class="students-form-label">
+                        <input id="country" type="email" class="block-label" placeholder="Email" />
+                    </label>
+                    <label for="qualifications" >
+                        <textarea id="qualificattions" class="block-textarea" placeholder="Qualifications"></textarea>
+                    </label>
+                    <label for="emplomenthistory" >
+                        <textarea id="employmenthistory" class="block-textarea" placeholder="Employment history"></textarea>
+                    </label>
+                    <label for="referees" >
+                        <textarea id="referees" class="block-textarea" placeholder="Referees"></textarea>
+                    </label>
+                    
+                    
+                    <button id="save" class="button students">Save</button>
+                    <button id="cancel" class="button students">Cancel</button>
                 </form>
-            </div>
             
-            <!-- Create the guardians side bar -->   
-            <div>
-                <aside class="aside student">
-                    List student's guardinans
-                    <button id="guardianremove" class="button students">Remove</button>
-                    <button id="guardianadd" class="button students">Add</button>
-                </aside>
             </div>
-            
             
         </main>
+        
+
         
         
         <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
